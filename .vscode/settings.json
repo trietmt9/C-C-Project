@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "_mingw.h": "c",
+        "msvcrtver.h": "c",
+        "w32api.h": "c",
+        "stddef.h": "c"
+    }
+}
