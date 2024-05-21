@@ -1,37 +1,77 @@
 #include <stdio.h> 
-#define MAX_VALUE                       10
+#include <stdint.h>
+#include <math.h>
 
-int index[MAX_VALUE] = {0, 2, 5, 6, 9, 10, 11, 12, 13, 14};
-int binary_search(int array[], int target)
+#define MAX_VALUE                                       10
+
+uint8_t Index[MAX_VALUE] = {0, 2, 5, 6, 9, 10, 11, 12, 13, 14};
+
+uint8_t binary_search(uint8_t array[], uint8_t target);
+uint8_t linear_search(uint8_t array[], uint8_t target);
+uint8_t interpolation_search(uint8_t array[], uint8_t target);
+uint8_t jump_search(uint8_t array[], uint8_t target);
+int main(void)
 {
-    int mid;
-    int low = 0; 
-    int high = MAX_VALUE - 1;
+    uint8_t result;
+    result = jump_search(Index, 14);
+    if(result != 255)  printf("Is in index[%d]\n", result);
+    else printf("Is not in index\n");
+}
+
+uint8_t binary_search(uint8_t array[], uint8_t target)
+{
+    uint8_t mid;
+    uint8_t low = 0; 
+    uint8_t high = MAX_VALUE - 1;
     while(low <= high)
     {
         mid = (high + low)/2;
-        if(target == array[mid])
-        {
-            return mid; 
-        }
-        else if( target > array[mid])
-        {
-            low = mid + 1;
-        }
-        else
-        {
-            high = mid - 1;
-        }
+        if(target == array[mid]) return mid; 
+
+        else if( target > array[mid]) low = mid + 1;
+
+        else high = mid - 1;
     }
-    return -1;
+    return 255;
 }
-int main(void)
+
+uint8_t linear_search(uint8_t array[], uint8_t target)
 {
-    int result;
-    result = binary_search(index, 14);
-    if(result != -1) 
+    for(uint8_t i = 0; i <= MAX_VALUE - 1; i++)
     {
-        printf("Is in index[%d]\n", result);
+        if(array[i] == target) return i;
     }
-    else printf("Is not in index\n");
+    return 225;
+}
+
+uint8_t interpolation_search(uint8_t array[], uint8_t target)
+{
+    uint8_t pos = 0;
+    uint8_t low = 0;
+    uint8_t high = MAX_VALUE - 1;
+    while(low <= high && target >= array[low] && target <= array[high])
+    {
+        pos = low + ((target -array[low])*(high-low)/(array[high]-array[low]));
+        if(target > array[pos]) low = pos + 1;
+        else if(target < array[pos]) high = pos - 1; 
+        else if(target == array[pos]) return pos; 
+    }
+    return 255; 
+}
+
+uint8_t jump_search(uint8_t array[], uint8_t target)
+{
+    uint8_t jump_step = sqrt(MAX_VALUE);
+    uint8_t prev = 0; 
+    for(uint8_t pos = 0; pos <= MAX_VALUE - 1; pos+=jump_step) 
+    {
+        if(array[pos] == target) return pos;
+        else if(array[pos] < target) prev = array[pos];
+        else break;
+    }
+    for(uint8_t pos = prev; pos <= MAX_VALUE -1; pos++)
+    {
+        if(array[pos] == target) return pos;
+    }
+    return 255;
 }
