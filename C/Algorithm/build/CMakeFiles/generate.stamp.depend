@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/ST/STM32CubeCLT_1.15.0/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/Users/pc/Documents/C_C++/C/Algorithm/CMakeLists.txt
+C:/Users/pc/Documents/C_C++/C/Algorithm/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+C:/Users/pc/Documents/C_C++/C/Algorithm/build/CMakeFiles/3.28.1/CMakeRCCompiler.cmake
+C:/Users/pc/Documents/C_C++/C/Algorithm/build/CMakeFiles/3.28.1/CMakeSystem.cmake

@@ -1,23 +1,23 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include <stdint.h>
 #include <math.h>
 
-#define MAX_VALUE                                       10
-
+#define MAX_VALUE                                   10       
 uint8_t Index[MAX_VALUE] = {0, 2, 5, 6, 9, 10, 11, 12, 13, 14};
 
 uint8_t binary_search(uint8_t array[], uint8_t target);
 uint8_t linear_search(uint8_t array[], uint8_t target);
 uint8_t interpolation_search(uint8_t array[], uint8_t target);
 uint8_t jump_search(uint8_t array[], uint8_t target);
-int main(void)
-{
-    uint8_t result;
-    result = jump_search(Index, 14);
-    if(result != 255)  printf("Is in index[%d]\n", result);
-    else printf("Is not in index\n");
+int main(int argc, char *argv[])
+{   
+    uint8_t target = 5;
+    uint8_t result=0;
+    result = jump_search(Index, 5);
+    if(result != 255) printf("%d is in index[%d]\n", target, result);
+    else printf("%d is not in index\n", target);
+    return 0;
 }
-
 uint8_t binary_search(uint8_t array[], uint8_t target)
 {
     uint8_t mid;
