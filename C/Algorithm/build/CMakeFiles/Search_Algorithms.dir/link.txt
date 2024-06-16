@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Search_Algorithms.dir/main.c.o  -o Search_Algorithms  Search_Engines/libSearch_Engines.a 

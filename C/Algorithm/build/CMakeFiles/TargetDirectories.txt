@@ -1,3 +1,6 @@
-C:/Users/pc/Documents/C_C++/C/Algorithm/build/CMakeFiles/SearchAlgorithmsProject.dir
-C:/Users/pc/Documents/C_C++/C/Algorithm/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/pc/Documents/C_C++/C/Algorithm/build/CMakeFiles/ZERO_CHECK.dir
+/home/triet/Documents/C-C-Project/C/Algorithm/build/CMakeFiles/rebuild_cache.dir
+/home/triet/Documents/C-C-Project/C/Algorithm/build/CMakeFiles/edit_cache.dir
+/home/triet/Documents/C-C-Project/C/Algorithm/build/CMakeFiles/Search_Algorithms.dir
+/home/triet/Documents/C-C-Project/C/Algorithm/build/Search_Engines/CMakeFiles/rebuild_cache.dir
+/home/triet/Documents/C-C-Project/C/Algorithm/build/Search_Engines/CMakeFiles/edit_cache.dir
+/home/triet/Documents/C-C-Project/C/Algorithm/build/Search_Engines/CMakeFiles/Search_Engines.dir
