@@ -306,6 +306,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\pc\Documents\C_C++\C\Algorithm\Src\main.c" />
+    <ClCompile Include="C:\Users\pc\Documents\C_C++\C\Algorithm\Src\Search_Algorithms.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\pc\Documents\C_C++\C\Algorithm\build\ZERO_CHECK.vcxproj">

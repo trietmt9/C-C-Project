@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\pc\Documents\C_C++\C\Algorithm\Src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\pc\Documents\C_C++\C\Algorithm\Src\Search_Algorithms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\pc\Documents\C_C++\C\Algorithm\CMakeLists.txt" />

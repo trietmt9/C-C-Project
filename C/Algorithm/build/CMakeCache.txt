@@ -59,7 +59,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/pc/Documents/C_C++/C/Algorithm/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/search_algorithm
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/SearchAlgorithmsProject
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.exe
@@ -175,15 +175,6 @@ SearchAlgorithmsProject_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 SearchAlgorithmsProject_SOURCE_DIR:STATIC=C:/Users/pc/Documents/C_C++/C/Algorithm
-
-//Value Computed by CMake
-search_algorithm_BINARY_DIR:STATIC=C:/Users/pc/Documents/C_C++/C/Algorithm/build
-
-//Value Computed by CMake
-search_algorithm_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-search_algorithm_SOURCE_DIR:STATIC=C:/Users/pc/Documents/C_C++/C/Algorithm
 
 
 ########################

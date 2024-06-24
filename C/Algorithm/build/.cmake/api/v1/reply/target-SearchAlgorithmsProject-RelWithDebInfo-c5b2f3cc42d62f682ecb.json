@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -44,7 +44,8 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -87,7 +88,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -97,6 +99,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Src/Search_Algorithms.c",
 			"sourceGroupIndex" : 0
 		}
 	],

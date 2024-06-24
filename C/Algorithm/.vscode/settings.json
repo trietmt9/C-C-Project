@@ -1,9 +1,6 @@
 {
     "files.associations": {
-        "search_algorithm.h": "c",
-        "stdint.h": "c",
-        "math.h": "c",
-        "stdio.h": "c"
+        "search_algorithms.h": "c"
     },
     "cortex-debug.armToolchainPath": "c:\\Users\\pc\\AppData\\Roaming\\Code\\User\\globalStorage\\bmd.stm32-for-vscode\\@xpack-dev-tools\\arm-none-eabi-gcc\\12.2.1-1.2.1\\.content\\bin"
 }

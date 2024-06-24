@@ -395,7 +395,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/search_algorithm"
+			"value" : "C:/Program Files (x86)/SearchAlgorithmsProject"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -935,42 +935,6 @@
 		},
 		{
 			"name" : "SearchAlgorithmsProject_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/pc/Documents/C_C++/C/Algorithm"
-		},
-		{
-			"name" : "search_algorithm_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/pc/Documents/C_C++/C/Algorithm/build"
-		},
-		{
-			"name" : "search_algorithm_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "search_algorithm_SOURCE_DIR",
 			"properties" : 
 			[
 				{
