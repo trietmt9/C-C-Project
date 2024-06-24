@@ -2,11 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-<<<<<<< HEAD
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SearchAlgorithmsProject")
-=======
   set(CMAKE_INSTALL_PREFIX "/usr/local")
->>>>>>> 95dc3ad881edf4f0334dfc95986fb8e22b607f62
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

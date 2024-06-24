@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSearch_Engines.a  CMakeFiles/Search_Engines.dir/Src/binary_search.c.o CMakeFiles/Search_Engines.dir/Src/jump_search.c.o CMakeFiles/Search_Engines.dir/Src/linear_search.c.o CMakeFiles/Search_Engines.dir/Src/interpolation_search.c.o
+/usr/bin/ranlib libSearch_Engines.a

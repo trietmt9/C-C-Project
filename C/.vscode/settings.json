@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "binary_search.h": "c",
+        "functional": "c",
+        "linear_search.h": "c",
+        "interpolation_search.h": "c",
+        "jump_search.h": "c"
+    }
+}
