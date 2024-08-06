@@ -30,10 +30,27 @@ class BankAccount
     private:
         // Private attributes
         float Balance;
-    
-        
-
 };
+
+double BankAccount::deposit(double bal)
+{
+    return bal;
+}
+
+double BankAccount::withDraw(double bal)
+{
+    return bal;
+}
+void BankAccount::setBalance(double bal)
+{
+    Balance = bal; 
+}
+double BankAccount::getBalance()
+{
+
+    return Balance;
+}
+
 
 int main()
 {
