@@ -12,7 +12,7 @@ int main()
     for(int count = 0; count < 5; count++)
     {
         int elements;
-        cout << "Insert element: ";
+        cout << "Insert score: ";
         cin >> elements;
         test_scores.push_back(elements);
     }
