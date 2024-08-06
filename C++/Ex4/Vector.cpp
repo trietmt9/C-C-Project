@@ -1,10 +1,14 @@
 #include <iostream>
 #include "vector"
 using namespace std;
-vector <int> test_scores;
+
 
 int main()
 {
+    vector <int> test_scores;
+    int average;
+    int avr_sum;
+    /* 1D vector*/
     for(int count = 0; count < 5; count++)
     {
         int elements;
@@ -17,4 +21,11 @@ int main()
     {
         cout << "Test score: "<< test_scores.at(count) <<endl;
     }
+
+    for (auto average_Score:test_scores)
+    {
+        avr_sum+=average_Score;   
+    }
+    average = avr_sum/test_scores.size();
+    cout<<"Average score: "<< average <<endl;
 }
