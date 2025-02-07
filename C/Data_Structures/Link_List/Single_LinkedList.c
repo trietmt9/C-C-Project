@@ -37,10 +37,13 @@ void free_list(node_t *head) {
 
 int main() {
     node_t *head = create_node(10);
-    head->link = create_node(20);
-    head->link->link = create_node(30);
-    head->link->link->link = create_node(40);
-
+    node_t *first = create_node(20);
+    head->link = first;
+    node_t *second = create_node(30);
+    first->link = second;
+    node_t *third = create_node(40);
+    second->link = third;
+    third->link = NULL;
     print_list(head);
     free_list(head);
 
